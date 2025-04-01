@@ -6,4 +6,4 @@
     
 </script>
 
-<button class="navbutton" on:click={restart}>Restart</button>
+<button class="navbutton" on:click={restart}>↻ Back to Start</button>

@@ -13,5 +13,5 @@
     
 </script>
 
-<button class="navbutton" on:click={restart}>← Retake</button>
+<button class="navbutton" on:click={restart}>↻ Retake Quiz</button>
 <button class="navbutton" on:click={nextPage}>Next →</button>
