@@ -7,9 +7,7 @@
 </html>
 
 <script>
-    import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
-	import OlympicPlanner from './OlympicPlanner.svelte';
+	import OlympicPlanner from './lib/OlympicPlanner.svelte';
 </script>
 
 <OlympicPlanner/>
