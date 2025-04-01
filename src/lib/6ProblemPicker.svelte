@@ -1,4 +1,6 @@
-<script>
+<script lang="ts">
+    export let nextPage: () => void;
+    export let prevPage: () => void;
     // Choose A Problem
         // Policing
                 // 3 dropdown clickable buttons
@@ -14,3 +16,6 @@
         // Next to 7End.svelte
     
 </script>
+
+<button class="navbutton" on:click={prevPage}>← Back</button>
+<button class="navbutton" on:click={nextPage}>Next →</button>

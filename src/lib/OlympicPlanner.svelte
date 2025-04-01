@@ -1,5 +1,6 @@
-<script>
-  // start button to move to 2DisasterPicker.svelte
+ <script lang="ts">
+    // start button to move to 2DisasterPicker.svelte
+    export let nextPage: () => void;
 </script>
 
 <h1 style="margin-bottom: 0.5rem;">Why LA28 Can't Happen</h1>
@@ -11,7 +12,7 @@
 <br>
 <br>
 <br>
-<button class="navbutton" on:click={() => window.location.href = '/2DisasterPicker.svelte'}>Start →</button>
+<button class="navbutton" on:click={nextPage}>Start →</button>
 
 <style>
   :global(body) {
