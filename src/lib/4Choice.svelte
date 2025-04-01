@@ -1,6 +1,6 @@
 <script lang="ts">
     export let nextPage: () => void;
-    export let prevPage: () => void;
+    export let restart: () => void;
     // 4A
         // scrolldown info
         
@@ -13,5 +13,5 @@
     
 </script>
 
-<button class="navbutton" on:click={prevPage}>← Back</button>
+<button class="navbutton" on:click={restart}>← Retake</button>
 <button class="navbutton" on:click={nextPage}>Next →</button>

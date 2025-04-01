@@ -1,11 +1,9 @@
 <script lang="ts">
-    export let nextPage: () => void;
-    export let prevPage: () => void;
+  export let restart: () => void;
 
     // Navigation Buttons
         // Retake to 1Home.svelte
     
 </script>
 
-<button class="navbutton" on:click={prevPage}>← Back</button>
-<button class="navbutton" on:click={nextPage}>Next →</button>
+<button class="navbutton" on:click={restart}>Restart</button>

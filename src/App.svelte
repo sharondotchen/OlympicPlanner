@@ -1,13 +1,5 @@
-<html lang="en">
-	<head>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-	</head>
-</html>
-
 <script>
-	import OlympicPlanner from './lib/OlympicPlanner.svelte';
+  import OlympicPlanner from './lib/OlympicPlanner.svelte';
   import TwoDisasterPicker from './lib/2DisasterPicker.svelte';
   import ThreeCancelPicker from './lib/3CancelPicker.svelte';
   import FourChoice from './lib/4Choice.svelte';
@@ -39,10 +31,14 @@
     }
   }
 
+  function restart() {
+    currentPage = 0; // Reset to the first page (OlympicPlanner)
+  }
+
   $: CurrentPage = pages[currentPage];
 </script>
 
-<svelte:component this={CurrentPage} nextPage={nextPage} prevPage={prevPage} />
+<svelte:component this={CurrentPage} nextPage={nextPage} prevPage={prevPage} restart={restart} />
 <!--
   {#if pages[currentPage]}
   <button class="navbutton" on:click={prevPage} disabled={currentPage === 0}>← Back</button>
