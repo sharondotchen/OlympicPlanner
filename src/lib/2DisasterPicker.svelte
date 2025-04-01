@@ -8,10 +8,11 @@
     // Navigation Buttons
         // Back to OlympicPlanner.svelte
         // Next to 3CancelPicker.svelte
-    import olympicplanner from '../lib/olympicplanner.json';
-    let disasterPicker = olympicplanner.find(item => item.name === "2DisasterPicker");
 
-    let { body, action, choice1, choice2 } = disasterPicker || {};
+    //import olympicplanner from '../lib/olympicplanner.json';
+    //let disasterPicker = olympicplanner.find(item => item.name === "2DisasterPicker");
+
+    //let { body, action, choice1, choice2 } = disasterPicker || {};
 </script>
 
 <h1> hello test </h1>
