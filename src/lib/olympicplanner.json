@@ -1,0 +1,66 @@
+[
+	{
+		"name": "2DisasterPicker",
+		"body": "Imagine that you're an event organizer for a beloved annual festival in your town, Townsville. \n Every year, Townsvillians and people all across Townsville County look forward to the festival's delicious food, fun carnival games, and lucrative local business opportunities.",
+		"action": "Suddenly, Townsville is struck by… (Pick a disaster)",
+		"choice1": "A massive wildfire",
+		"choice2": "A serious infectious disease outbreak"
+	},
+
+
+
+	{
+		"name": "3A",
+		"body": "A massive wildfire has consumed a large swath of Townsville, leaving hundreds of Townsvillians displaced from their homes and even causing a few deaths. \n The Townsville Festival isn't for several months, and there's some time to rebuild before the event takes place. Everyone in Townsville really looks forward to the festival every year, and vendors and city officials are encouraging you to proceed with the festival to lift everyone's spirits. The event would also bring some much-needed business and cash flow into the Townsville economy. However, some local community members are pushing for the festival to be cancelled, and they say that the funds normally allocated to the festival planning should be donated to fire victims and dedicated to rebuilding.",
+		"action": "What do you do?",
+		"choice1": "Cancel the festival",
+		"choice2": "Don't cancel — Townsville needs this!"
+	},
+	{
+		"name": "3B", 
+		"body": "Townsville has been hit with an infectious disease outbreak, and the elderly and immunocompromised are especially vulnerable. There have been around a dozen deaths so far, but the infection rate has slowed since a vaccine was introduced. The festival was pushed back for a few months. \n Now that the rescheduled date is approaching, there is disagreement about about the event. City officials insist that the infection rate has reached a manageable level, and that holding the event will help to reverse the economic slowdown caused by the outbreak. Additionally, they've laid out a plan for how to make sure cases won't spike during the festival: limiting attendance to Townsvillians who are vaccinated and must quarantine separately from those that are vulnerable. However, some local community members oppose the festival and argue hosting it during an outbreak is unsafe.",
+		"action": "What do you do?",
+		"choice1": "Cancel the festival",
+		"choice2": "Don't cancel — Townsville needs this!"
+	},
+
+
+
+    {
+		"name": "4A",
+		"body": "You chose to cancel the festival."
+	},
+    {
+		"name": "4B",
+		"body": "You chose to not cancel the festival."
+	},
+    {
+		"name": "4C",
+		"body": "You chose to cancel the festival."
+	},
+    {
+		"name": "4D",
+		"body": "You chose to not cancel the festival."
+	},
+
+
+
+    {
+		"name": "5Explainer",
+		"body": "The consequences of your choices as a Townsville event organizer only affect the people of Townsville County, but the Olympics can affect host city populations in the millions every two years — not to mention the thousands of migrant workers that make the Games possible every cycle.\n Moreover, the Olympics aren't just harmful to host cities during times of disaster. Press “next” to see more examples of the “Olympic curse” in action."
+	},
+
+
+
+    {
+		"name": "6ProblemPicker",
+        "body": "CHOOSE A PROBLEM"
+    },
+
+
+
+    {
+		"name": "7End",
+        "body": "As you can see, the supposed benefits of hosting the Olympics rarely pay off for a host city's private citizens. It's not surprising that, especially in light of this year's devastating wildfires, the people of Los Angeles don't feel ready to host in three years. \n Luckily, the Olympics also has a long history of citizen mobilization against Olympic bids. In 1972, Denver citizens organized against the 1976 Olympic bid, citing economic and environmental reasons, and successfully rejected the Games. More recently, both Boston and Calgary pulled out of bids for 2024 and 2026 respectively due to economic concerns about the increasingly expensive event. Angelenos have the power to change their city's fate in the same way."
+    }
+]
