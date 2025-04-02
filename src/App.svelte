@@ -8,6 +8,9 @@
     import SevenEnd from './lib/7End.svelte';
     import Disease from './lib/quizchoices/Disease.svelte';
     import Fire from './lib/quizchoices/Fire.svelte';
+  
+  
+   // let currentPage = 0;
 
    let currentSlide = $state(1);
    let userDisaster =$state();
@@ -22,8 +25,37 @@
    function updateChoice (newChoice){
     userChoice = newChoice;
    }
-</script>
-
+  
+  //  const slides = [
+  //    OlympicPlanner,
+   //   TwoDisasterPicker,
+  //    ThreeCancelPicker,
+    //  FourChoice,
+    //  FiveExplainer,
+    //  SixProblemPicker,
+   //   SevenEnd
+  //  ];
+  
+   // function nextPage() {
+    //  if (currentPage < pages.length - 1) {
+     //   currentPage++;
+    //  }
+   // }
+  
+   // function prevPage() {
+   //   if (currentPage > 0) {
+    //    currentPage--;
+  //    }
+  //  }
+  
+   // function restart() {
+  //    currentPage = 0; // Reset to the first page (OlympicPlanner)
+  //  }
+  
+   // $: CurrentPage = pages[currentPage];
+  </script>
+  
+  <div id="planner">
     {#if currentSlide == 1}
     <OlympicPlanner {goToSlide}/>
     {/if}
@@ -45,6 +77,7 @@
     {#if currentSlide == 7}
     <SevenEnd {goToSlide}/>
     {/if}
+  </div>
  
   <!--<svelte:component this={CurrentPage} nextPage={nextPage} prevPage={prevPage} restart={restart} />-->
   
