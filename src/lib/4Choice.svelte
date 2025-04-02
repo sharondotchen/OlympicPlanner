@@ -1,6 +1,7 @@
 <script lang="ts">
-    export let nextPage: () => void;
-    export let restart: () => void;
+    let {goToSlide, userChoice,} = $props();
+    //export let nextPage: () => void;
+    //export let restart: () => void;
     // 4A
         // scrolldown info
         
@@ -13,5 +14,7 @@
     
 </script>
 
-<button class="navbutton" on:click={restart}>↻ Retake Quiz</button>
-<button class="navbutton" on:click={nextPage}>Next →</button>
+<p>You chose {userChoice}.</p>
+
+<button class="navbutton" onclick={()=> goToSlide(1)}>↻ Retake Quiz</button>
+<button class="navbutton" onclick={()=> goToSlide(5)}>Next →</button>

@@ -1,6 +1,7 @@
 <script lang="ts">
-    export let nextPage: () => void;
-    export let prevPage: () => void;
+    let {goToSlide} = $props();
+   // export let nextPage: () => void;
+   // export let prevPage: () => void;
     // Choose A Problem
         // Policing
                 // 3 dropdown clickable buttons
@@ -17,5 +18,7 @@
     
 </script>
 
-<button class="navbutton" on:click={prevPage}>← Back</button>
-<button class="navbutton" on:click={nextPage}>Next →</button>
+<p class="action"> Choose a problem:</p>
+
+<button class="navbutton" onclick={()=> goToSlide(5)}>← Back</button>
+<button class="navbutton" onclick={()=> goToSlide(7)}>Next →</button>
