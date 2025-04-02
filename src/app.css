@@ -27,7 +27,8 @@ p { /* body text*/
   font-weight: medium;
 	font-size: 14px;
   font-style: normal;
-  color: var(--primary)
+  color: var(--primary);
+  text-align: left;
 }
 .action {
   font-family: "Inter", sans-serif;
@@ -35,7 +36,8 @@ p { /* body text*/
   font-weight: medium;
 	font-size: 12px;
   font-style: normal;
-  color:  var(--secondary)
+  color:  var(--secondary);
+  text-align: center;
 }
 .simulation_text{
   max-width: 500px;

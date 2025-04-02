@@ -19,7 +19,7 @@ let {goToSlide, userDisaster, userChoice, updateChoice,} = $props();
     
 </script>
 
-<p>You picked {userDisaster}.</p>
+<p class="action" style="margin-top: 0;">You picked {userDisaster}.</p>
 <div class = "simulation_text">
     <p>A massive wildfire has consumed a large swath of Townsville, leaving hundreds of Townsvillians displaced from their homes and even causing a few deaths.  
     <br>
