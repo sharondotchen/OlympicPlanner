@@ -20,15 +20,25 @@ let {goToSlide, userDisaster, userChoice, updateChoice,} = $props();
 </script>
 
 <p>You picked {userDisaster}.</p>
-<br>
-<p class="action">What do you do?</p>
-<br>
-<button class="cancel" onclick={()=> updateChoice ("to cancel")}>Cancel the festival.</button>
-<button class="dont-cancel" onclick={()=> updateChoice ("not to cancel")}>Don't cancel — Townsville needs this!</button>
-<br>
-<br>
-{#if userChoice}
-<p class="action">You chose {userChoice}.</p>
-{/if}
+<div class = "simulation_text">
+    <p>A massive wildfire has consumed a large swath of Townsville, leaving hundreds of Townsvillians displaced from their homes and even causing a few deaths.  
+    <br>
+    <br>
+    The Townsville Festival isn’t for several months, and there’s some time to rebuild before the event takes place. Everyone in Townsville really looks forward to the festival every year, and vendors and city officials are encouraging you to proceed with the festival to lift everyone’s spirits. The event would also bring some much-needed business and cash flow into the Townsville economy. However, some local community members are pushing for the festival to be cancelled, and they say that the funds normally allocated to the festival planning should be donated to fire victims and dedicated to rebuilding.</p>
+    <br>
+    <p class="action" style="margin-top: 0;">What do you do?</p>
+    </div>
+    <br>
+    <br>
+    <div id="disaster-picker" >
+        <button class="cancel" onclick={()=> updateChoice ("to cancel")}>Cancel the festival.</button>
+        <button class="dont-cancel" onclick={()=> updateChoice ("not to cancel")}>Don't cancel — Townsville needs this!</button>
+    </div>
+    <br>
+    <br>
+    <br>
+
+
+
 <button class="navbutton" onclick={()=> goToSlide(2)} disabled={!userChoice}>← Back</button>
 <button class="navbutton" onclick={()=> goToSlide(4)} disabled={!userChoice}>Next →</button>

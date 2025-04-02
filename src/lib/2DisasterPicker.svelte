@@ -16,24 +16,27 @@
     //let { body, action, choice1, choice2 } = disasterPicker || {};
 </script>
 
-
+<div class = "simulation_text">
 <p>Imagine that you're an event organizer for a beloved annual festival in your town, Townsville. 
 <br>
 <br>
  Every year, Townsvillians and people all across Townsville County look forward to the festival's delicious food, fun carnival games, and lucrative local business opportunities.</p>
- <br>
- <br>
-<p class="action">Suddenly, Townsville is struck by… (Pick a disaster)</p>
+<br>
+<p class="action" style="margin-top: 0;">Suddenly, Townsville is struck by… (Pick a disaster)</p>
+</div>
 <br>
 <br>
-<div id="disaster-picker">
+<div id="disaster-picker" >
     <button class="fire" onclick={()=> updateDisaster ("fire")}>A massive wildfire</button>
     <button class="disease" onclick={()=> updateDisaster ("disease")}>A serious infectious disease outbreak</button>
 </div>
+<br>
+<br>
+<br>
 
-{#if userDisaster}
-<p class="action">You picked {userDisaster}.</p>
-{/if}
+<!--{#if userDisaster}
+<p class="action" >You picked {userDisaster}.</p>
+{/if}-->
 
 <button class="navbutton" onclick={()=> goToSlide (1)} disabled={!userDisaster}>← Back</button>
 <button class="navbutton" onclick={()=> goToSlide (3)} disabled={!userDisaster}>Next →</button>

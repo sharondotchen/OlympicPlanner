@@ -9,7 +9,7 @@
 <p style="margin-top: 0;">by Sharon Chen and Juliana George</p>
 <br>
 <br>
-<img src="./assets/olympic_cover.svg" alt="cover illustration with olympic logo" />
+<img src="src/assets/olympic_cover.svg" alt="cover illustration with olympic logo" />
 <br>
 <br>
 <br>
