@@ -1,5 +1,4 @@
 <script lang="ts">
-import svelte from "@sveltejs/vite-plugin-svelte";
 import Fire from './quizchoices/Fire.svelte';
 import Disease from './quizchoices/Disease.svelte';
 
