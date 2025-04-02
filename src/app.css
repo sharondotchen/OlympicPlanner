@@ -210,7 +210,31 @@ p { /* body text*/
   border-color: var(--accent);
 }
 
+.cancelled {
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--bg-color);
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
 
+#not-cancelled {
+  max-width: 476px;
+  height: 300px;
+  overflow: auto;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 18px;
+  font-style: normal;
+  color: var(--secondary);
+  background-color: var(--bg-color);
+  border: 1px solid var(--accent); /* Added 'solid' to make the border visible */
+  padding: 10px; /* Optional: Adds space inside the box */
+}
 
 body {
   margin: 0;

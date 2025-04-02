@@ -4,6 +4,9 @@
   import ThreeCancelPicker from './lib/3CancelPicker.svelte';
   import ThreeCancelPickerB from './lib/3CancelPickerB.svelte';
   import FourChoice from './lib/4Choice.svelte';
+  import FourChoiceB from './lib/4ChoiceB.svelte';
+  import FourChoiceC from './lib/4ChoiceC.svelte';
+  import FourChoiceD from './lib/4ChoiceD.svelte';
   import FiveExplainer from './lib/5Explainer.svelte';
   import SixProblemPicker from './lib/6ProblemPicker.svelte';
   import SevenEnd from './lib/7End.svelte';
@@ -56,12 +59,21 @@
     <FourChoice {goToSlide} {userChoice} />
   {/if}
   {#if currentSlide == 6}
-    <FiveExplainer {goToSlide} />
+    <FourChoiceB {goToSlide} />
   {/if}
   {#if currentSlide == 7}
-    <SixProblemPicker {goToSlide} />
+    <FourChoiceC {goToSlide} />
   {/if}
   {#if currentSlide == 8}
+    <FourChoiceD {goToSlide} />
+  {/if}
+  {#if currentSlide == 9}
+    <FiveExplainer {goToSlide} />
+  {/if}
+  {#if currentSlide == 10}
+    <SixProblemPicker {goToSlide} />
+  {/if}
+  {#if currentSlide == 11}
     <SevenEnd {goToSlide} />
   {/if}
 </div>

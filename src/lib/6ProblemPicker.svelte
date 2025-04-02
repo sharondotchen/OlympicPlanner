@@ -20,5 +20,5 @@
 
 <p class="action"> Choose a problem:</p>
 
-<button class="navbutton" onclick={()=> goToSlide(5)}>← Back</button>
-<button class="navbutton" onclick={()=> goToSlide(7)}>Next →</button>
+<button class="navbutton" onclick={()=> goToSlide(9)}>← Back</button>
+<button class="navbutton" onclick={()=> goToSlide(11)}>Next →</button>
