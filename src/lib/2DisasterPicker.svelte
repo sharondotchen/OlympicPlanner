@@ -10,11 +10,10 @@
     <p>Imagine that you're an event organizer for a beloved annual festival in your town, Townsville.
       <br><br>
       Every year, Townsvillians and people all across Townsville County look forward to the festival's delicious food, fun carnival games, and lucrative local business opportunities.</p>
-    <br>
     <p class="action" style="margin-top: 0;">Suddenly, Townsville is struck by… (Pick a disaster)</p>
   </div>
   
-  <br><br>
+  <br>
   
   <div id="disaster-picker">
     <!-- Clicking these buttons will ONLY update userDisaster, NOT move to the next page -->

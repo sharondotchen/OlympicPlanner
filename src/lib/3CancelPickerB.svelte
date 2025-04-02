@@ -28,7 +28,6 @@
         <p class="action" style="margin-top: 0;">What do you do?</p>
         </div>
         <br>
-        <br>
         <div id="disaster-picker" >
             <button class="cancel" onclick={()=> updateChoice ("to cancel")}>Cancel the festival.</button>
             <button class="dont-cancel" onclick={()=> updateChoice ("not to cancel")}>Don't cancel — Townsville needs this!</button>
@@ -39,5 +38,5 @@
     
     
     
-        <button class="navbutton" onclick={() => goToSlide(2)}>← Back</button>
+    <button class="navbutton" onclick={() => goToSlide(2)}>← Back</button>
     <button class="navbutton" onclick={()=> goToSlide(4)} disabled={!userChoice}>Next →</button>
