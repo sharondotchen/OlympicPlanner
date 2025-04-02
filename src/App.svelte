@@ -22,7 +22,7 @@
    function updateChoice (newChoice){
     userChoice = newChoice;
    }
-  </script>
+</script>
 
     {#if currentSlide == 1}
     <OlympicPlanner {goToSlide}/>
