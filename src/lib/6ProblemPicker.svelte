@@ -13,9 +13,10 @@
         <li class="economy"><a href="#{userProblem}" onclick={()=>updateProblem("Economy")}>Economy</a></li>
     </ul>
 </nav>
+<hr>
 <div id="city-picker">
     <p class="action">Pick an Olympics to learn more.</p>
-
+<br>
 <!--These if statements show different cities depending on the problem the user chooses.-->
 {#if userProblem === "Policing"}
     <button class="rio-1" onclick={()=>showCity("rio-1")}>Rio de Janeiro 2016</button>
