@@ -14,6 +14,8 @@
   let currentSlide = $state(1);
   let userDisaster = $state();
   let userChoice = $state();
+  let userProblem = $state();
+  let userCity = $state();
 
   function goToSlide(slideNum) {
     currentSlide = slideNum;
@@ -34,6 +36,14 @@
     } else {
       goToSlide(4);  // Go to ThreeCancelPickerB if disaster is not fire
     }
+  }
+
+  function updateProblem(newProblem) {
+    userProblem = newProblem;
+  }
+
+  function showCity(newCity){
+    userCity = newCity;
   }
 </script>
 
@@ -71,7 +81,7 @@
     <FiveExplainer {goToSlide} />
   {/if}
   {#if currentSlide == 10}
-    <SixProblemPicker {goToSlide} />
+    <SixProblemPicker {goToSlide} {updateProblem} {userProblem} {showCity} {userCity}/>
   {/if}
   {#if currentSlide == 11}
     <SevenEnd {goToSlide} />

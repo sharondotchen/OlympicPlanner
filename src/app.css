@@ -7,10 +7,10 @@
 }
 
 a {
-  color: --hyperlink;
+  color:var(--hyperlink);
 }
 a:hover {
-  color: --accent;
+  color: var(--accent);
 }
 
 h1 {  /* title*/
@@ -209,7 +209,303 @@ p { /* body text*/
   background-color: var(--accent);
   border-color: var(--accent);
 }
-
+.rio-1{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--secondary);
+  background-color: var(--bg-color);
+  border-color: var(--accent);
+}
+.rio-1:hover{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--bg-color);
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+.rio-1:focus{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--bg-color);
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+.beijing{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--secondary);
+  background-color: var(--bg-color);
+  border-color: var(--accent);
+}
+.beijing:hover{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--bg-color);
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+.beijing:focus{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--bg-color);
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+.la{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--secondary);
+  background-color: var(--bg-color);
+  border-color: var(--accent);
+}
+.la:hover{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--bg-color);
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+.la:focus{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--bg-color);
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+.rio-2{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--secondary);
+  background-color: var(--bg-color);
+  border-color: var(--accent);
+}
+.rio-2:hover{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--bg-color);
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+.rio-2:focus{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--bg-color);
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+.atlanta{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--secondary);
+  background-color: var(--bg-color);
+  border-color: var(--accent);
+}
+.atlanta:hover{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--bg-color);
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+.atlanta:focus{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--bg-color);
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+.seoul{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--secondary);
+  background-color: var(--bg-color);
+  border-color: var(--accent);
+}
+.seoul:hover{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--bg-color);
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+.seoul:focus{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--bg-color);
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+.pyeongchang{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--secondary);
+  background-color: var(--bg-color);
+  border-color: var(--accent);
+}
+.pyeongchang:hover{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--bg-color);
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+.pyeongchang:focus{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--bg-color);
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+.sochi{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--secondary);
+  background-color: var(--bg-color);
+  border-color: var(--accent);
+}
+.sochi:hover{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--bg-color);
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+.sochi:focus{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--bg-color);
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+.athens{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--secondary);
+  background-color: var(--bg-color);
+  border-color: var(--accent);
+}
+.athens:hover{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--bg-color);
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+.athens:focus{
+  width: 500px;
+  height: 55px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+	font-size: 18px;
+  font-style: normal;
+  color: var(--bg-color);
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
 .cancelled {
   width: 500px;
   height: 55px;
@@ -267,4 +563,10 @@ body {
 .navbutton:hover {
   background-color: var(--accent);
   color: var(--bg-color);
+}
+ul li{
+  list-style-type:none;
+  display:inline-block;
+  gap:5em;
+  place-items:center
 }
