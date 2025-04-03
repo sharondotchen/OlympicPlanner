@@ -209,6 +209,11 @@ p { /* body text*/
   background-color: var(--accent);
   border-color: var(--accent);
 }
+#city-picker{
+  max-width: 500px;
+  display: grid;
+  flex-direction: column;
+}
 .rio-1{
   width: 500px;
   height: 55px;
@@ -530,6 +535,19 @@ p { /* body text*/
   background-color: var(--bg-color);
   border: 1px solid var(--accent); /* Added 'solid' to make the border visible */
   padding: 10px; /* Optional: Adds space inside the box */
+}
+.city-info{
+  max-width: 476px;
+  height: 150px;
+  overflow: auto;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 18px;
+  font-style: normal;
+  color: var(--secondary);
+  background-color: var(--bg-color);
+  border: 1px solid var(--accent); /* Added 'solid' to make the border visible */
+  padding: 10px;
 }
 
 body {

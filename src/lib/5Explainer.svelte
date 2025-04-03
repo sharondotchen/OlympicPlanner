@@ -1,6 +1,4 @@
 <script lang="ts">
-   // export let nextPage: () => void;
-   // export let prevPage: () => void;
    let {goToSlide}= $props();
 </script>
 

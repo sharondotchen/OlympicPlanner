@@ -1,11 +1,11 @@
 <script lang="ts">
-    let {goToSlide, userChoice,} = $props();
+    let {goToSlide} = $props();
     
 </script>
 
 
 <div id="disaster-picker">
-    <button class="cancelled">You chose {userChoice}.</button>
+    <button class="cancelled">You chose to cancel.</button>
     <div id = "not-cancelled">
     <p>Some Townsvillians are sad to miss out on the yearly tradition, but the people who lost homes or businesses to the fire are grateful to be the focus of the town's recovery efforts.
         <br><br>

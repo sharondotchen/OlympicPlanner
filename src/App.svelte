@@ -66,7 +66,7 @@
     <ThreeCancelPickerB {goToSlide} {userDisaster} {userChoice} {updateChoice} />
   {/if}
   {#if currentSlide == 5}
-    <FourChoice {goToSlide} {userChoice} />
+    <FourChoice {goToSlide} />
   {/if}
   {#if currentSlide == 6}
     <FourChoiceB {goToSlide} />
