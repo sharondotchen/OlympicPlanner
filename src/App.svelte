@@ -14,7 +14,7 @@
   let currentSlide = $state(1);
   let userDisaster = $state();
   let userChoice = $state();
-  let userProblem = $state();
+  let userProblem = $state("Policing");
   let userCity = $state();
 
   function goToSlide(slideNum) {

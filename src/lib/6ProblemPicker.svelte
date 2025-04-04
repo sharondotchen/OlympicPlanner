@@ -3,22 +3,28 @@
     let {goToSlide, updateProblem, userProblem, showCity, userCity} = $props();
 </script>
 
-<p class="action"> Choose a problem:</p>
+<p class="action"> CHOOSE A PROBLEM:</p>
 
 <!--Use these tabs to choose a problem-->
 <nav class="menu">
     <ul>
-        <li class="policing"><a href="#{userProblem}" onclick={()=>updateProblem("Policing")}>Policing</a></li>
-        <li class="displacement"><a href="#{userProblem}" onclick={()=>updateProblem("Displacement")}>Displacement</a></li>
-        <li class="economy"><a href="#{userProblem}" onclick={()=>updateProblem("Economy")}>Economy</a></li>
+        <li class="policing"><a href="#{userProblem}" onclick={()=>updateProblem("Policing")}>POLICING</a></li>
+        <li class="displacement"><a href="#{userProblem}" onclick={()=>updateProblem("Displacement")}>DISPLACEMENT</a></li>
+        <li class="economy"><a href="#{userProblem}" onclick={()=>updateProblem("Economy")}>ECONOMY</a></li>
     </ul>
 </nav>
+<<<<<<< Updated upstream
 <hr>
 <div id="city-picker">
     <p class="action">Pick an Olympics to learn more.</p>
+=======
+<br><br>
+<div id="city-picker">
+>>>>>>> Stashed changes
 <br>
 <!--These if statements show different cities depending on the problem the user chooses.-->
 {#if userProblem === "Policing"}
+<p class="action">Pick an Olympics to learn more.</p>
     <button class="rio-1" onclick={()=>showCity("rio-1")}>Rio de Janeiro 2016</button>
     {#if userCity === "rio-1"}
     <div class="city-info" in:slide={{duration:500}} out:slide>
@@ -38,8 +44,11 @@
         <p>After the 1984 Games were awarded in 1978, then-Mayor Tom Bradley did everything in his power to expand police militarization to crack down on the gang violence and drug crimes he <a href="https://www.washingtonpost.com/news/made-by-history/wp/2017/08/06/the-1984-olympics-fueled-l-a-s-war-on-crime-will-the-2028-games-do-the-same/">believed</a> would tank the city's reputation. Between 1974 and 1982, the LAPD budget more than <a href="https://nolympicsla.com/2020/06/29/examining-the-la-1984-olympic-legacy-capitalism-police-violence-and-privatization/">doubled</a>, and the police force became known for using excessive and brutal force, particularly against Black and Latino youth. The 1984 Olympics <a href="https://web.archive.org/web/20160219013044/https://www.thenation.com/article/want-understand-1992-la-riots-start-1984-la-olympics/">provided</a> an avenue for Los Angeles to accelerate mass incarceration and intensify police brutality, which eventually led to the violent police assault of Rodney King in 1992 and the ensuing deadly riots.</p>
     </div>
     {/if}
+    <br>
+    <p class="action">This list is by no means exhaustive. For more information, visit <a href="https://nolympicsla.com/resources/">https://nolympicsla.com/resources/</a>.</p>
 {/if}
 {#if userProblem === "Displacement"}
+<p class="action">Pick an Olympics to learn more.</p>
     <button class="rio-2" onclick={()=>showCity("rio-2")}>Rio de Janeiro 2016</button>
     {#if userCity === "rio-2"}
     <div class="city-info" in:slide={{duration:500}} out:slide>
@@ -58,8 +67,11 @@
         <p>In the lead-up to the 1988 Olympics, former South Korean president and military dictator Chun Doo-hwan <a href="https://www.cnn.com/2016/10/25/asia/south-korea-brothers-home-abuse/index.html">authorized</a> the detainment of thousands of South Korean citizens — mostly children, the homeless, and the disabled — in “welfare facilities” that oversaw some of the most horrifying human rights abuses in South Korean history. Former inmates, many of whom were children at the time, <a href="https://apnews.com/general-news-43ad81ac09564c90bc6e6b3cd005d73d">recall</a> years of daily sexual and physical abuse for which they have since received no reparations or apologies. At the most deadly of these facilities, there were more than 500 documented deaths between 1975 and 1986. The Olympics created an opportunity and a rationale for Chun to carry out these heinous atrocities.</p>
         </div>
     {/if}
+    <br>
+    <p class="action">This list is by no means exhaustive. For more information, visit <a href="https://nolympicsla.com/resources/">https://nolympicsla.com/resources/</a>.</p>
 {/if}
 {#if userProblem === "Economy"}
+<p class="action">Pick an Olympics to learn more.</p>
     <button class="pyeongchang" onclick={()=>showCity("pyeongchang")}>Pyeongchang 2018</button>
     {#if userCity === "pyeongchang"}
     <div class="city-info" in:slide={{duration:500}} out:slide>
@@ -78,8 +90,10 @@
         <p>Greece was already mired in public debt before the 2004 Olympics — but the Games <a href="https://archive.is/20230509223717/https://www.bloomberg.com/news/articles/2012-08-02/how-the-2004-olympics-triggered-greeces-decline">added</a> 7 billion euros to the tally, and less than 10 years later, many Greeks <a href="https://www.theguardian.com/sport/2012/may/09/athens-2004-olympics-athletes-home">blamed</a> the Games for the country's steep economic decline. And although some of the Olympic infrastructure projects helped Athens in the long run, many of the Olympic facilities became crumbling, underutilized manifestations of the country's crippling debt after the Games ended. The Olympics is never a win for host cities — only for the International Olympic Committee, which <a href="https://www.politico.eu/article/how-the-olympics-rotted-greece/">walked away</a> with $985 million in 2004 while Athens was left to sink even deeper into debt.</p>
         </div>
     {/if}
+    <br>
+    <p class="action">This list is by no means exhaustive. For more information, visit <a href="https://nolympicsla.com/resources/">https://nolympicsla.com/resources/</a>.</p>
 {/if}
-<p class="action">This list is by no means exhaustive. For more information, visit <a href="https://nolympicsla.com/resources/">https://nolympicsla.com/resources/</a>.</p>
+<br>
 </div>
 
 <br><br><br>
