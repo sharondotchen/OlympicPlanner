@@ -599,6 +599,12 @@ li{
   text-align: center;
 }
 
+hr{
+  border-color: var(--secondary);
+  opacity: 0.4;
+  margin-top: 0px;
+}
+
 .menu {
   display: flex;
   justify-content: center;
@@ -606,6 +612,7 @@ li{
   width: 100%;
   padding: 10px;
   text-align: center;
+  position: sticky;
 }
 
 .menu ul {
@@ -613,7 +620,7 @@ li{
   padding: 0;
   margin: 0;
   display: flex;
-  gap: 5em;
+  gap: 2em;
   text-align: center;
 }
 
@@ -622,8 +629,8 @@ li{
   place-items: center;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: bold;
-  font-size: 18px;
+  font-weight: semi-bold;
+  font-size: 14px;
   font-style: normal;
   text-transform: uppercase;
   text-align: center;
@@ -632,7 +639,7 @@ li{
 .menu a {
   text-decoration: none;
   color: var(--secondary); 
-  opacity: 0.8;                /* 80% opacity */
+  opacity: 0.4;                /* 80% opacity */
   transition: color 0.3s ease, opacity 0.3s ease;
   padding: 10px 15px;
   display: block;
@@ -642,4 +649,19 @@ li{
 .menu a.active {
   color: white;
   opacity: 1;
+}
+.menu li.active a {
+  color: var(--secondary);
+  opacity: 1;
+}
+.chooseproblem {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: semi-bold;
+	font-size: 13px;
+  font-style: normal;
+  color:  var(--secondary);
+  opacity: .4;
+  text-align: center;
+  margin-top: 0px;
 }

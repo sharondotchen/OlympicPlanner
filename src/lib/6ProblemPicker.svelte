@@ -5,15 +5,21 @@
 
 <p class="action"> CHOOSE A PROBLEM:</p>
 
-<!--Use these tabs to choose a problem-->
 <nav class="menu">
     <ul>
-        <li class="policing"><a href="#{userProblem}" onclick={()=>updateProblem("Policing")}>POLICING</a></li>
-        <li class="displacement"><a href="#{userProblem}" onclick={()=>updateProblem("Displacement")}>DISPLACEMENT</a></li>
-        <li class="economy"><a href="#{userProblem}" onclick={()=>updateProblem("Economy")}>ECONOMY</a></li>
+        <li class="policing {userProblem === 'Policing' ? 'active' : ''}">
+            <a href="#{userProblem}" onclick={()=>updateProblem("Policing")}>POLICING</a>
+        </li>
+        <li class="displacement {userProblem === 'Displacement' ? 'active' : ''}">
+            <a href="#{userProblem}" onclick={()=>updateProblem("Displacement")}>DISPLACEMENT</a>
+        </li>
+        <li class="economy {userProblem === 'Economy' ? 'active' : ''}">
+            <a href="#{userProblem}" onclick={()=>updateProblem("Economy")}>ECONOMY</a>
+        </li>
     </ul>
 </nav>
 <hr>
+<br>
 <div id="city-picker">
     <p class="action">Pick an Olympics to learn more.</p>
 <br>
