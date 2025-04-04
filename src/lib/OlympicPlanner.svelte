@@ -13,6 +13,7 @@
 <br>
 <br>
 <br>
+<br>
 <button class="navbutton" onclick={()=> goToSlide(2)}>Start →</button>
 
 <style>
