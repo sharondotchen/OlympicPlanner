@@ -13,18 +13,12 @@
         <li class="economy"><a href="#{userProblem}" onclick={()=>updateProblem("Economy")}>ECONOMY</a></li>
     </ul>
 </nav>
-<<<<<<< Updated upstream
 <hr>
 <div id="city-picker">
     <p class="action">Pick an Olympics to learn more.</p>
-=======
-<br><br>
-<div id="city-picker">
->>>>>>> Stashed changes
 <br>
 <!--These if statements show different cities depending on the problem the user chooses.-->
 {#if userProblem === "Policing"}
-<p class="action">Pick an Olympics to learn more.</p>
     <button class="rio-1" onclick={()=>showCity("rio-1")}>Rio de Janeiro 2016</button>
     {#if userCity === "rio-1"}
     <div class="city-info" in:slide={{duration:500}} out:slide>
@@ -45,10 +39,8 @@
     </div>
     {/if}
     <br>
-    <p class="action">This list is by no means exhaustive. For more information, visit <a href="https://nolympicsla.com/resources/">https://nolympicsla.com/resources/</a>.</p>
 {/if}
 {#if userProblem === "Displacement"}
-<p class="action">Pick an Olympics to learn more.</p>
     <button class="rio-2" onclick={()=>showCity("rio-2")}>Rio de Janeiro 2016</button>
     {#if userCity === "rio-2"}
     <div class="city-info" in:slide={{duration:500}} out:slide>
@@ -68,10 +60,8 @@
         </div>
     {/if}
     <br>
-    <p class="action">This list is by no means exhaustive. For more information, visit <a href="https://nolympicsla.com/resources/">https://nolympicsla.com/resources/</a>.</p>
 {/if}
 {#if userProblem === "Economy"}
-<p class="action">Pick an Olympics to learn more.</p>
     <button class="pyeongchang" onclick={()=>showCity("pyeongchang")}>Pyeongchang 2018</button>
     {#if userCity === "pyeongchang"}
     <div class="city-info" in:slide={{duration:500}} out:slide>
@@ -91,8 +81,8 @@
         </div>
     {/if}
     <br>
-    <p class="action">This list is by no means exhaustive. For more information, visit <a href="https://nolympicsla.com/resources/">https://nolympicsla.com/resources/</a>.</p>
 {/if}
+<p class="action">This list is by no means exhaustive. For more information, visit <a href="https://nolympicsla.com/resources/">https://nolympicsla.com/resources/</a>.</p>
 <br>
 </div>
 

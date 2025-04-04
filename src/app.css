@@ -590,7 +590,6 @@ li{
   list-style-type:none;
   gap:5em;
   place-items:center;
-<<<<<<< Updated upstream
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: bold;
@@ -598,21 +597,6 @@ li{
   font-style: normal;
   text-transform: uppercase;
   text-align: center;
-=======
-  padding:0px 10px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: medium;
-	font-size: 14px;
-  font-style: normal;
-  color: var(--primary);
-  text-align: left;
-}
-.menu{
-  display:inline-block;
-  padding:10px;
-  place-items:center
->>>>>>> Stashed changes
 }
 
 .menu {
