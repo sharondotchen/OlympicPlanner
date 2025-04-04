@@ -1,9 +1,10 @@
 <script lang="ts">
     import {slide} from 'svelte/transition';
     let {goToSlide, updateProblem, userProblem, showCity, userCity} = $props();
+    
 </script>
 
-<p class="action"> CHOOSE A PROBLEM:</p>
+<p class="chooseproblem"> CHOOSE A PROBLEM:</p>
 
 <nav class="menu">
     <ul>

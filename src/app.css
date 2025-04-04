@@ -537,7 +537,7 @@ p { /* body text*/
   padding: 10px; /* Optional: Adds space inside the box */
 }
 .city-info{
-  max-width: 476px;
+  max-width: 470px;
   height: 150px;
   overflow: auto;
   font-family: "Inter", sans-serif;
@@ -547,7 +547,7 @@ p { /* body text*/
   color: var(--secondary);
   background-color: var(--bg-color);
   border: 1px solid var(--accent); /* Added 'solid' to make the border visible */
-  padding: 10px;
+  padding: 15px;
 }
 
 body {
