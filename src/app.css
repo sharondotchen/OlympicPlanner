@@ -33,8 +33,8 @@ p { /* body text*/
 .action {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: medium;
-	font-size: 13px;
+  font-weight: semi-bold;
+	font-size: 14px;
   font-style: normal;
   color:  var(--secondary);
   text-align: center;
