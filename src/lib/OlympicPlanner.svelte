@@ -14,7 +14,7 @@
 <br>
 <br>
 <br>
-<button class="navbutton" onclick={()=> goToSlide(2)}>Start →</button>
+<button class="navbutton" onclick={()=> goToSlide(2)}>Find out why!</button>
 
 <style>
   :global(body) {
