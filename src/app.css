@@ -670,3 +670,7 @@ hr{
   max-width: 500px;
   opacity: .75;
 }
+
+.iconpics{
+  max-width: 60px;
+}

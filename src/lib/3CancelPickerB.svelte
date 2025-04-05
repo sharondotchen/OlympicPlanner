@@ -1,14 +1,17 @@
 <script lang="ts">
     let { goToSlide, userDisaster, userChoice, updateChoice } = $props();
+    import DiseasePic from '../assets/disease.png';
   </script>
   
+  <img src="{DiseasePic}" class="iconpics" alt="icon illustration of fire" />
   <p class="action" style="margin-top: 0;">You picked {userDisaster}.</p>
   
   <div class="simulation_text">
     <p>
-      A serious infectious disease outbreak is spreading rapidly in Townsville, leading to hospitalizations and public health restrictions.
+      Townsville has been hit with an infectious disease outbreak, and the elderly and immunocompromised are especially vulnerable. The festival was pushed back for a few months. There have been around a dozen deaths but the infection rate has slowed since a vaccine was introduced.
       <br><br>
-      Some believe the festival should still proceed with precautions, while others argue that it should be canceled for public safety.
+      Now that the rescheduled date is approaching, city officials insist that the infection rate has reached a manageable level, and that holding the event will help to reverse the economic slowdown caused by the outbreak. Additionally, they’ve laid out a plan for how to make sure cases won’t spike during the festival: limiting attendance to Townsvillians who are vaccinated and must quarantine separately from those that are vulnerable. However, some local community members oppose the festival and argue hosting it during an outbreak is unsafe.
+
     </p>
     <p class="action" style="margin-top: 0;">What do you do?</p>
   </div>

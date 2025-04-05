@@ -1,7 +1,10 @@
 <script lang="ts">
     let { goToSlide, userDisaster, userChoice, updateChoice } = $props();
+    import FirePic from '../assets/fire.png';
   </script>
   
+
+  <img src="{FirePic}" class="iconpics" alt="icon illustration of fire" />
   <p class="action" style="margin-top: 0;">You picked {userDisaster}.</p>
   
   <div class="simulation_text">
