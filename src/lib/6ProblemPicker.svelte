@@ -1,6 +1,10 @@
 <script lang="ts">
     import {slide} from 'svelte/transition';
     let {goToSlide, updateProblem, userProblem, showCity, userCity} = $props();
+
+    import PolicingSVG from '../assets/policing.png';
+    import EconomySVG from '../assets/economy.png';
+    import DisplacementSVG from '../assets/displacement.png';
     
 </script>
 
@@ -26,6 +30,8 @@
 <br>
 <!--These if statements show different cities depending on the problem the user chooses.-->
 {#if userProblem === "Policing"}
+    <img src={PolicingSVG} alt="Police with military guns standing at the Rio Olympics" class="problem-image" />
+    <br> 
     <button class="rio-1" onclick={()=>showCity("rio-1")}>Rio de Janeiro 2016</button>
     {#if userCity === "rio-1"}
     <div class="city-info" in:slide={{duration:500}} out:slide>
@@ -48,6 +54,8 @@
     <br>
 {/if}
 {#if userProblem === "Displacement"}
+    <img src="{DisplacementSVG}" alt="Rally against Olympics and AirBNB partnership in New York on Jan. 20, 2015." class="problem-image" />
+    <br>
     <button class="rio-2" onclick={()=>showCity("rio-2")}>Rio de Janeiro 2016</button>
     {#if userCity === "rio-2"}
     <div class="city-info" in:slide={{duration:500}} out:slide>
@@ -69,6 +77,8 @@
     <br>
 {/if}
 {#if userProblem === "Economy"}
+    <img src="{EconomySVG}" alt="Protest against Olympic games in Chicago 2016" class="problem-image" />
+    <br>
     <button class="pyeongchang" onclick={()=>showCity("pyeongchang")}>Pyeongchang 2018</button>
     {#if userCity === "pyeongchang"}
     <div class="city-info" in:slide={{duration:500}} out:slide>
