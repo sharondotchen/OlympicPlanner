@@ -8,9 +8,9 @@
   
   <div class="simulation_text">
     <p>
-      Townsville has been hit with an infectious disease outbreak, and the elderly and immunocompromised are especially vulnerable. The festival was pushed back for a few months. There have been around a dozen deaths but the infection rate has slowed since a vaccine was introduced.
+      Townsville has been hit with an infectious disease outbreak, and the festival was postponed for a few months. There have been around a dozen deaths, but the infection rate has slowed since a vaccine was introduced.
       <br><br>
-      Now that the rescheduled date is approaching, city officials insist that the infection rate has reached a manageable level, and that holding the event will help to reverse the economic slowdown caused by the outbreak. Additionally, they’ve laid out a plan for how to make sure cases won’t spike during the festival: limiting attendance to Townsvillians who are vaccinated and must quarantine separately from those that are vulnerable. However, some local community members oppose the festival and argue hosting it during an outbreak is unsafe.
+      Now that the rescheduled date is approaching, city officials insist that the infection rate has reached a manageable level, and that holding the event will help to reverse the economic slowdown caused by the outbreak. Additionally, they've laid out a plan for how to make sure cases won't spike during the festival. However, some local community members oppose the festival and argue hosting it during an outbreak is unsafe.
 
     </p>
     <p class="action" style="margin-top: 0;">What do you do?</p>

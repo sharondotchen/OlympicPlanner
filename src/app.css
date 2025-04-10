@@ -25,7 +25,7 @@ p { /* body text*/
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: medium;
-	font-size: 15px;
+	font-size: 16px;
   font-style: normal;
   color: var(--primary);
   text-align: left;
@@ -35,7 +35,7 @@ p { /* body text*/
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: semi-bold;
-	font-size: 14px;
+	font-size: 15px;
   font-style: normal;
   color:  var(--secondary);
   text-align: center;
