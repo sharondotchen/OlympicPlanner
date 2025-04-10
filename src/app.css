@@ -40,9 +40,1006 @@ p { /* body text*/
   color:  var(--secondary);
   text-align: center;
 }
-.simulation_text{
-  max-width: 500px;
-  position: flex;
+.title-img{
+  max-width:80vw;
+  display:block;
+  margin:auto;
+  place-items:center
+}
+@media only screen and (max-width: 550px){
+  .title{
+    max-width:20rem
+  }
+  .simulation_text{
+    max-width:20rem;
+    position:flex
+  }
+  #disaster-picker{
+    max-width: 20rem;
+    display: grid;
+    flex-direction: column;
+  }
+  .fire {
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 17px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .fire:hover {
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 17px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .fire:focus {
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 17px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  
+  .disease {
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 17px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .disease:hover {
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 17px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .disease:focus {
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 17px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .cancel {
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 17px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .cancel:hover {
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 17px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .cancel:focus {
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 17px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  
+  .dont-cancel {
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 17px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .dont-cancel:hover {
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 17px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .dont-cancel:focus {
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 17px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .cancelled {
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  #not-cancelled {
+    max-width: 19rem;
+    height: 300px;
+    overflow: auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 17px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border: 1px solid var(--accent); /* Added 'solid' to make the border visible */
+    padding: 10px; /* Optional: Adds space inside the box */
+  }
+  #city-picker{
+    max-width: 20rem;
+    display: grid;
+    flex-direction: column;
+  }
+  .rio-1{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .rio-1:hover{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .rio-1:focus{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .beijing{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .beijing:hover{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .beijing:focus{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .la{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .la:hover{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .la:focus{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .rio-2{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .rio-2:hover{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .rio-2:focus{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .atlanta{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .atlanta:hover{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .atlanta:focus{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .seoul{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .seoul:hover{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .seoul:focus{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .pyeongchang{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .pyeongchang:hover{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .pyeongchang:focus{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .sochi{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .sochi:hover{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .sochi:focus{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .athens{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .athens:hover{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .athens:focus{
+    width: 20rem;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .city-info{
+    max-width: 18rem;
+    height: 150px;
+    overflow: auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border: 1px solid var(--accent); /* Added 'solid' to make the border visible */
+    padding: 15px;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    max-width: 20rem;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+  }
+  .problem-image{
+    max-width: 20rem;
+    opacity: .75;
+  }
+}
+@media only screen and (min-width: 551px){
+  .simulation_text{
+    max-width: 500px;
+    position: flex;
+  }
+  #disaster-picker{
+    max-width: 500px;
+    display: grid;
+    flex-direction: column;
+  }
+  .fire {
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .fire:hover {
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .fire:focus {
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .disease {
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .disease:hover {
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .disease:focus {
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .cancel {
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .cancel:hover {
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .cancel:focus {
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .dont-cancel {
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .dont-cancel:hover {
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .dont-cancel:focus {
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .cancelled {
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  #not-cancelled {
+    max-width: 476px;
+    height: 300px;
+    overflow: auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border: 1px solid var(--accent); /* Added 'solid' to make the border visible */
+    padding: 10px; /* Optional: Adds space inside the box */
+  }
+  #city-picker{
+    max-width: 500px;
+    display: grid;
+    flex-direction: column;
+  }
+  .rio-1{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .rio-1:hover{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .rio-1:focus{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .beijing{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .beijing:hover{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .beijing:focus{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .la{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .la:hover{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .la:focus{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .rio-2{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .rio-2:hover{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .rio-2:focus{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .atlanta{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .atlanta:hover{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .atlanta:focus{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .seoul{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .seoul:hover{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .seoul:focus{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .pyeongchang{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .pyeongchang:hover{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .pyeongchang:focus{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .sochi{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .sochi:hover{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .sochi:focus{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .athens{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border-color: var(--accent);
+  }
+  .athens:hover{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .athens:focus{
+    width: 500px;
+    height: 55px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--bg-color);
+    background-color: var(--accent);
+    border-color: var(--accent);
+  }
+  .city-info{
+    max-width: 470px;
+    height: 150px;
+    overflow: auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--secondary);
+    background-color: var(--bg-color);
+    border: 1px solid var(--accent); /* Added 'solid' to make the border visible */
+    padding: 15px;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+  }
+  .problem-image{
+    max-width: 500px;
+    opacity: .75;
+  }
 }
 .choice_button_text {
   font-family: "Inter", sans-serif;
@@ -67,488 +1064,6 @@ p { /* body text*/
 	font-size: 20px;
   font-style: normal;
   color: var(--accent);
-}
-
-#disaster-picker{
-  max-width: 500px;
-  display: grid;
-  flex-direction: column;
-}
-
-.fire {
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--secondary);
-  background-color: var(--bg-color);
-  border-color: var(--accent);
-}
-.fire:hover {
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-.fire:focus {
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-
-.disease {
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--secondary);
-  background-color: var(--bg-color);
-  border-color: var(--accent);
-}
-.disease:hover {
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-.disease:focus {
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-
-.cancel {
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--secondary);
-  background-color: var(--bg-color);
-  border-color: var(--accent);
-}
-.cancel:hover {
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-.cancel:focus {
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-
-.dont-cancel {
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--secondary);
-  background-color: var(--bg-color);
-  border-color: var(--accent);
-}
-.dont-cancel:hover {
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-.dont-cancel:focus {
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-#city-picker{
-  max-width: 500px;
-  display: grid;
-  flex-direction: column;
-}
-.rio-1{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--secondary);
-  background-color: var(--bg-color);
-  border-color: var(--accent);
-}
-.rio-1:hover{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-.rio-1:focus{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-.beijing{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--secondary);
-  background-color: var(--bg-color);
-  border-color: var(--accent);
-}
-.beijing:hover{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-.beijing:focus{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-.la{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--secondary);
-  background-color: var(--bg-color);
-  border-color: var(--accent);
-}
-.la:hover{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-.la:focus{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-.rio-2{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--secondary);
-  background-color: var(--bg-color);
-  border-color: var(--accent);
-}
-.rio-2:hover{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-.rio-2:focus{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-.atlanta{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--secondary);
-  background-color: var(--bg-color);
-  border-color: var(--accent);
-}
-.atlanta:hover{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-.atlanta:focus{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-.seoul{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--secondary);
-  background-color: var(--bg-color);
-  border-color: var(--accent);
-}
-.seoul:hover{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-.seoul:focus{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-.pyeongchang{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--secondary);
-  background-color: var(--bg-color);
-  border-color: var(--accent);
-}
-.pyeongchang:hover{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-.pyeongchang:focus{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-.sochi{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--secondary);
-  background-color: var(--bg-color);
-  border-color: var(--accent);
-}
-.sochi:hover{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-.sochi:focus{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-.athens{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--secondary);
-  background-color: var(--bg-color);
-  border-color: var(--accent);
-}
-.athens:hover{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-.athens:focus{
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-.cancelled {
-  width: 500px;
-  height: 55px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-	font-size: 18px;
-  font-style: normal;
-  color: var(--bg-color);
-  background-color: var(--accent);
-  border-color: var(--accent);
-}
-
-#not-cancelled {
-  max-width: 476px;
-  height: 300px;
-  overflow: auto;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 18px;
-  font-style: normal;
-  color: var(--secondary);
-  background-color: var(--bg-color);
-  border: 1px solid var(--accent); /* Added 'solid' to make the border visible */
-  padding: 10px; /* Optional: Adds space inside the box */
-}
-.city-info{
-  max-width: 470px;
-  height: 150px;
-  overflow: auto;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 18px;
-  font-style: normal;
-  color: var(--secondary);
-  background-color: var(--bg-color);
-  border: 1px solid var(--accent); /* Added 'solid' to make the border visible */
-  padding: 15px;
 }
 
 body {
@@ -606,16 +1121,6 @@ hr{
   margin-top: 0px;
 }
 
-.menu {
-  display: flex;
-  justify-content: center;
-  max-width: 500px;
-  width: 100%;
-  padding: 10px;
-  text-align: center;
-  position: sticky;
-}
-
 .menu ul {
   list-style: none;
   padding: 0;
@@ -665,10 +1170,6 @@ hr{
   opacity: .4;
   text-align: center;
   margin-top: 0px;
-}
-.problem-image{
-  max-width: 500px;
-  opacity: .75;
 }
 
 .iconpics{

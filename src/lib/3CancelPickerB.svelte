@@ -5,7 +5,7 @@
   
   <img src="{DiseasePic}" class="iconpics" alt="icon illustration of fire" />
   <p class="action" style="margin-top: 0;">You picked {userDisaster}.</p>
-  
+  <br>
   <div class="simulation_text">
     <p>
       Townsville has been hit with an infectious disease outbreak, and the festival was postponed for a few months. There have been around a dozen deaths, but the infection rate has slowed since a vaccine was introduced.
