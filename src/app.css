@@ -25,7 +25,7 @@ p { /* body text*/
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: medium;
-	font-size: 16px;
+	font-size: 14px;
   font-style: normal;
   color: var(--primary);
   text-align: left;
@@ -37,7 +37,7 @@ p { /* body text*/
   font-weight: semi-bold;
 	font-size: 15px;
   font-style: normal;
-  color:  var(--secondary);
+  color:  var(--accent);
   text-align: center;
 }
 .title-img{
@@ -215,7 +215,7 @@ p { /* body text*/
     color: var(--secondary);
     background-color: var(--bg-color);
     border: 1px solid var(--accent); /* Added 'solid' to make the border visible */
-    padding: 10px; /* Optional: Adds space inside the box */
+    padding: 20px; /* Optional: Adds space inside the box */
   }
   #city-picker{
     max-width: 21rem;
@@ -708,17 +708,19 @@ p { /* body text*/
     border-color: var(--accent);
   }
   #not-cancelled {
-    max-width: 476px;
+    max-width: 474px;
     height: 300px;
     overflow: auto;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     color: var(--secondary);
     background-color: var(--bg-color);
     border: 1px solid var(--accent); /* Added 'solid' to make the border visible */
     padding: 10px; /* Optional: Adds space inside the box */
+    padding-left: 40px;
+    padding-right: 40px;
   }
   #city-picker{
     max-width: 500px;
@@ -1034,6 +1036,8 @@ p { /* body text*/
     background-color: var(--bg-color);
     border: 1px solid var(--accent); /* Added 'solid' to make the border visible */
     padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .menu {
     display: flex;

@@ -20,6 +20,7 @@
   
   <div id="disaster-picker">
     <button class="cancel" onclick={() => updateChoice("to cancel")}>Cancel the festival.</button>
+    <br>
     <button class="dont-cancel" onclick={() => updateChoice("not to cancel")}>Don't cancel — Townsville needs this!</button>
   </div>
   

@@ -18,6 +18,7 @@
   <div id="disaster-picker">
     <!-- Clicking these buttons will ONLY update userDisaster, NOT move to the next page -->
     <button class="fire" onclick={() => onDisasterSelect("fire")}>A massive wildfire</button>
+    <br>
     <button class="disease" onclick={() => onDisasterSelect("disease")}>A serious infectious disease outbreak</button>
   </div>
   
